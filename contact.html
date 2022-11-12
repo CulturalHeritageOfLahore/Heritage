@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/730bb96fa2.js" crossorigin="anonymous"></script>
+    <title> Cultural Heritage of Lahore </title>
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a> </li>
+                    <li> <a href="sites.html">SITES</a> </li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+
+    </section>
+
+    <!-- --------- Contact Us  ----------- -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d849.8826950623331!2d74.3131323!3d31.5644895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191bcaa0968ebd%3A0x4d80aff9ab71a5d3!2sAiwan-e-Auqaf!5e0!3m2!1sen!2s!4v1662503365602!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-home"></i>
+                    <span>
+                        <h5>1st Floor, Aiwan.e.Auqaf Building, Near Lahore High Court, Lahore</h5>
+                        <p> Punjab, Pakistan</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>042-99204196</h5>
+                        <p>Call us in case of any query</p>
+                    </span>
+                </div>
+            
+
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>info@archaeology.punjab.gov.pk</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- -------------Footer---------------------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Directorate General of Archaeology was established in 1987. Initially an attached department of Information, Culture, and Youth Affairs Department and since October 2011,<br> attached with the newly created Youth Affairs, Sports, Archaeology & Tourism Department.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <p>@CopyRight 2022</p>
+    </section>
+
+
+
+<!-- ---------- JAVASCRIPT FOR TOGGLE MENU ---------- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            
+        }
+
+    </script>
+</body>
+</html>
